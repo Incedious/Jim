@@ -17,6 +17,7 @@
 		9E7EF7D322BB01DE001562C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E7EF7D122BB01DE001562C4 /* LaunchScreen.storyboard */; };
 		9E7EF7DE22BB01DF001562C4 /* JimTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF7DD22BB01DF001562C4 /* JimTests.swift */; };
 		9E7EF7E922BB01DF001562C4 /* JimUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF7E822BB01DF001562C4 /* JimUITests.swift */; };
+		9E7EF7F722BB0239001562C4 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E7EF7F622BB0239001562C4 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		9E7EF7E422BB01DF001562C4 /* JimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JimUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7EF7E822BB01DF001562C4 /* JimUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JimUITests.swift; sourceTree = "<group>"; };
 		9E7EF7EA22BB01DF001562C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E7EF7F622BB0239001562C4 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		9E7EF7B622BB01DE001562C4 = {
 			isa = PBXGroup;
 			children = (
+				9E7EF7F622BB0239001562C4 /* Player.swift */,
 				9E7EF7C122BB01DE001562C4 /* Jim */,
 				9E7EF7DC22BB01DF001562C4 /* JimTests */,
 				9E7EF7E722BB01DF001562C4 /* JimUITests */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E7EF7F722BB0239001562C4 /* Player.swift in Sources */,
 				9E7EF7C922BB01DE001562C4 /* GameScene.swift in Sources */,
 				9E7EF7CB22BB01DE001562C4 /* GameViewController.swift in Sources */,
 				9E7EF7C322BB01DE001562C4 /* AppDelegate.swift in Sources */,
